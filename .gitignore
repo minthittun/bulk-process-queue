@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# Redis Data (if using Redis locally and storing data in your project)
+data/
+
+# NPM package lock file (optional, depending on your preference)
+package-lock.json
+
+# Optional: Build directories (in case you transpile or bundle code)
+dist/
+build/
+
+# IDE/Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
