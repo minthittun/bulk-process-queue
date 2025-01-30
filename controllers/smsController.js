@@ -12,8 +12,15 @@ export const sendSMSController = async (req, res) => {
     // Dummy data for users (replace with actual DB query logic)
     const users = [
       { phoneNumber: '1234567890' },
-      { phoneNumber: '0987654321' },
-      { phoneNumber: '1122334455' },
+      { phoneNumber: '2345678901' },
+      { phoneNumber: '3456789012' },
+      { phoneNumber: '4567890123' },
+      { phoneNumber: '5678901234' },
+      { phoneNumber: '6789012345' },
+      { phoneNumber: '7890123456' },
+      { phoneNumber: '8901234567' },
+      { phoneNumber: '9012345678' },
+      { phoneNumber: '0123456789' },    
     ];
 
     // Add the job to the SMS queue
